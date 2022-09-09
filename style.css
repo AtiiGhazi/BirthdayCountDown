@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+h2{
+    font-size: 20rem;
+    font-weight: bold;
+    padding: 4rem;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    
+    
+    
+   
+   
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 0.2rem;
+}
+
+.day,
+.hour,
+.minute,
+.second{
+    font-size: 8rem;
+}
+
+.imagebd{
+   height: 50vh;
+}
